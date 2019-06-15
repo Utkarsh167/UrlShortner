@@ -1,6 +1,9 @@
 # UrlShortner
 URL Shortner Assignment
 To get Short Url open any client environment example postman and type in form raw (application/json)
+
+cd server yarn run start
+will start listening at 7000 port
 {
 "originalUrl":"https://www.google.com/search?client=firefox-b-d&q=Cannot+GET+%2Fapi%2Fitem",
 "shortBaseUrl":"https://google"
